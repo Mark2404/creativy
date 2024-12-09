@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: "20-kopeek-book";
+  src: url(./20-kopeek-book.otf);
+}
+body {
+  font-family: "20-kopeek-book";
+}
+
+.fr-section {
+  background-image: url(../imgs/hero-img-1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.header__logo {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.header__logo p {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 15px;
+  color: #fff;
+}
+.header__buttons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.header__buttons div {
+  border: 1px solid #fff;
+  border-radius: 15px;
+  width: 204px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__buttons div a {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #fff;
+}/*# sourceMappingURL=main.css.map */
