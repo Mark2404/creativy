@@ -61,4 +61,149 @@ body {
   font-size: 16px;
   line-height: 140%;
   color: #fff;
+}
+
+.fr-section__content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-top: 200px;
+  justify-content: start;
+  gap: 15px;
+}
+.fr-section__content h1 {
+  font-family: var(--third-family);
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 100%;
+  color: #181818;
+}
+.fr-section__content p {
+  font-family: var(--third-family);
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 110%;
+  color: #181818;
+}
+.fr-section__content .fr-section__buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 60px;
+}
+.fr-section__content .fr-section__buttons button {
+  border: 2px solid #fff;
+  border-radius: 40px;
+  padding: 23px 47px;
+  width: 186px;
+  height: 71px;
+}
+.fr-section__content .fr-section__buttons button:nth-child(2) {
+  border-radius: 40px;
+  padding: 23px 47px;
+  width: 228px;
+  height: 71px;
+}
+
+.what-is-style {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.what-is-style__img h2 {
+  font-family: var(--third-family);
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 110%;
+  color: #181818;
+  margin-bottom: 10px;
+}
+.what-is-style__content P {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #181818;
+}
+
+.how-to-create-logo {
+  margin-top: 100px;
+}
+.how-to-create-logo h2 {
+  font-family: var(--third-family);
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 100%;
+  color: #181818;
+}
+.how-to-create-logo__steps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+.how-to-create-logo__steps__step {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  justify-content: center;
+  gap: 5px;
+}
+.how-to-create-logo__steps__step h1 {
+  font-family: var(--third-family);
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 100%;
+  color: #181818;
+}
+.how-to-create-logo__steps__step p {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #181818;
+}
+
+.how-much {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  gap: 30px;
+}
+.how-much__text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+.how-much__text p:nth-child(1) {
+  margin-bottom: 20px;
+}
+.how-much__text .how-much__text__bg {
+  border-radius: 5px;
+  width: 416px;
+  height: 93px;
+  background-color: #2b59c3;
+  padding: 5px;
+}
+.how-much__text .how-much__text__bg p {
+  color: #fff;
+}
+.how-much__text P {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #181818;
+}
+.how-much .how-much__img h2 {
+  font-family: var(--third-family);
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 110%;
+  color: #181818;
+  margin-bottom: 20px;
 }/*# sourceMappingURL=main.css.map */
