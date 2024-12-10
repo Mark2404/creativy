@@ -302,4 +302,94 @@ body {
   font-size: 18px;
   line-height: 140%;
   color: #181818;
+}
+
+.two-inputs-sec {
+  margin-top: 100px;
+}
+.two-inputs-sec div:nth-child(1) h1 {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 110%;
+  color: #181818;
+  margin-bottom: 10px;
+}
+.two-inputs-sec div:nth-child(1) h3 {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 110%;
+  color: #181818;
+  margin-bottom: 10px;
+}
+.two-inputs-sec div:nth-child(2) {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.two-inputs-sec div:nth-child(2) input {
+  border: 1px solid #181818;
+  border-radius: 10px;
+  width: 350px;
+  height: 71px;
+  padding: 10px 20px;
+}
+.two-inputs-sec div:nth-child(2) button {
+  border-radius: 40px;
+  padding: 23px 47px;
+  width: 228px;
+  height: 71px;
+  background: #2b59c3;
+  border: none;
+  color: #fff;
+}
+.two-inputs-sec div:nth-child(3) {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+.two-inputs-sec div:nth-child(3) p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #181818;
+}
+.two-inputs-sec div:nth-child(3) p span {
+  color: #2b59c3;
+}
+
+.creating-steps-sec {
+  margin-top: 100px;
+}
+.creating-steps-sec h1 {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 100%;
+  color: #181818;
+  width: 45%;
+  margin-bottom: 30px;
+}
+
+.steps-sec p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 15px;
+  color: #181818;
+}
+.steps-sec__row1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 50px;
+}
+.steps-sec__row1 div P {
+  width: 60%;
+}
+.steps-sec__row1 div p:nth-child(1) {
+  margin-bottom: 20px;
 }/*# sourceMappingURL=main.css.map */
