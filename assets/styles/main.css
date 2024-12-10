@@ -384,11 +384,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
+  gap: 30px;
   margin-top: 50px;
 }
 .steps-sec__row1 div P {
-  width: 60%;
+  width: 150px;
 }
 .steps-sec__row1 div p:nth-child(1) {
   margin-bottom: 20px;
