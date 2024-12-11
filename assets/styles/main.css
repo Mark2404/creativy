@@ -652,4 +652,8 @@ body {
 
 .freelancer_2row p {
   width: 260px;
+}
+
+.freelancer_2row .big {
+  display: static;
 }/*# sourceMappingURL=main.css.map */
